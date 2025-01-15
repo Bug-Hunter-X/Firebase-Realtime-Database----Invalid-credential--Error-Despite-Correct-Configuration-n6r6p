@@ -1,0 +1,1 @@
+The Firebase Realtime Database sometimes throws a `FirebaseError: Invalid credential` error even when the credentials seem correctly configured.  This often occurs when the configuration object isn't properly loaded or accessed, or if there's an issue with the service account's permissions.  The error message itself is not very helpful in pinpointing the exact problem.
